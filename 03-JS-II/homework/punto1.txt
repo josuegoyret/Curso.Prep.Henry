@@ -1,0 +1,29 @@
+for:
+Cuando necesitamos realizar una acción repetidas veces y se torna algo
+muy engorroso, utilizamos "for" para hacerlo de forma automática. Para
+ello usamos una variable de prueba, que generalmente la nombramos "i".
+Primero le damos un valor, por ejemplo "0", y le damos una condición,
+por ejemplo, decimos "se va a realizar tal acción siempre y cuando "i" 
+sea menor a "100". Es necesario agregar que por cada vez que realice
+la acción la variable "i" se incremente en una unidad, entonces al eje-
+cutarse 100 veces, se deja de cumplir la función y la acción no se rea-
+liza más.
+
+&&:
+Cuando usamos un "if", a veces necesitamos que la acción se ejecute
+cuando se cumplen dos condiciones a la vez. Para ello usamos un "&&" (Y)
+que una a las dos condiciones, y el código dentro de los corchetes del
+"if" solo se correra cuando se cumplan las dos a la vez.
+
+||:
+En cambio, cuando tenemos dos condiciones pero solo es necesario que 
+se cumpla una para que se ejecute la acción, utilizamos un "||" (O).
+En este caso con que cualquiera de las condiciones sea verdadera es 
+suficiente para echar a correr el código.
+
+!:
+El signo de exclamación se llama "NOT" y es una negación.
+Este símbolo significa que se niega lo que viene después, por ejemplo
+si le sigue un igual significa distinto, si le sigue un verdadero sig-
+nifica falso, e incluso si le sigue el mismo signo de exclamación sig-
+nifica verdadero, por ejemplo !!true --> //true.

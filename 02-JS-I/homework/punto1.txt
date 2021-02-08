@@ -1,0 +1,61 @@
+Variables:
+Una variable es un contenedor de algo, ese algo puede ser una palabra 
+(un grupo de caracteres), un numero u otra cosa (no cualquier cosa, ya
+que hay una lista determina de cosas que podemos meter ahi adentro).
+Para qué sirve esto? Porque después necesitamos usar ese algo que meti-
+mos adentro (puede ser para modificarlo, para hacer calculos con ello,
+etc.), y para ello llamamos a esa variable. Entonces, para llamarla ne-
+cesitamos ponerle un nombre. En resumen, creamos una variable y le pone-
+mos un nombre, luego la llenamos con algo (le damos un valor), y des-
+pues utilizamos su nombre para traerla y usarla.
+
+Strings:
+Una string es un tipo de variable, en este caso se trata de una cadena
+de texto, o sea que ese valor que estoy poniendo adentro es un texto.
+Es realidad, se toma como un texto pero no necesariamente tiene
+que ser una palabra, o ni siquiera estar compuesto por letras, pero 
+siempre tiene que ir entre comillas para que sea un string. Por ejemplo,
+uno podria poner '2134', 'hola' o 'asdasdasd', y en los tres casos se
+trata de variables string.
+
+Funciones:
+Una funcion es un objeto que utilizamos para realizar acciones sobre
+las variables, como por ejemplo, modificarlas, hacer un calculo, etc.
+Por un lado necesitamos decirle sobre qué cosas va a realizar su acción, 
+y para eso utilizamos argumentos, o sea, un argumento es una variable
+que va a usar la función cuando haga su trabajo. Y por otro lado, tene-
+mos que decirle qué es lo que tiene que hacer, como por ejemplo "cuan-
+do te den dos variables numéricas, sumalas" (ésto se escribe entre cor-
+chetes para ella pueda entender bien). Muy bien, pero aunque la
+función haga la acción que vos querés no significa que te va mostrar
+el resultado, es por eso que le tenemos que ordenar que nos haga verlo.
+Para ello usamos la palabra "return", y de esta forma la función nos 
+muestra o devuelve el resultado final de lo que hizo previamente. 
+Ahora, una vez que armamos la función, cada vez que queramos usarla 
+necesitamos llamarla, y por eso antes le hemos dado un nombre. Entonces,
+para usarla uno pone su nombre, escribe los argumentos entre parén-
+tesis y ella hace su treabajo y nos muestra el resultado.
+
+Declaraciones if:
+Cuando usamos una declaración "if", queremos que la máquina piense un
+poquito antes de responder, es decir, agregamos un poco de lógica.
+Esto lo hacemos cuando queremos hacer un control de algo, y que la má-
+quina responda de una manera u otra de acuerdo a lo que le decimos. 
+Es decir, yo le hago una pregunta y de acuerdo a si la respuesta es de
+una manera, hace una cosa, y si es de otra manera, hace otra.
+Para que la máquina entienda la pregunta ésta debe estar hecha en len-
+guaje de comparación, por ejemplo: ¿la variable A es mas grande que la
+variblae B?. La maquina sola encuentra la respuesta, que puede ser ú-
+nicamente de dos maneras posibles: sí o no, verdadero o falso. Y luego,
+debemos decirle qué hacer cuando es verdadero y qué hacer cuando es
+falso. Entonces usamos la palbra "if", luego escribimos la pregunta
+entre paréntesis y finalmente le decimos qué hacer escrito entre cor-
+chetes.
+
+Valores booleanos:
+Cuando decimos que tenemos valores booleanos significa que hay solo
+dos opciones: sí o no, verdadero o falso, 1 o 0. Entonces, si armamos
+una variable que sea tipo booleana quiere decir que cuando la usemos
+los unicos valores posibles que puede tomar o las unicas respuestas que
+nos dará son verdadero o falso.
+
