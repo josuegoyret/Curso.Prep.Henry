@@ -1,0 +1,8 @@
+Arrays:
+Un array o arreglo es un tipo de varibale que sirve para almacenar mu-
+chos datos o valores a la vez. Es como un contendedor con más capacidad.
+Los datos que voy ingresando pueden ser de cualquier tipo: números,
+strings, booleanos, incluso otros arreglos enteros o funciones. Los mis-
+mos se ubican en una posición determinada de acuerdo al orden en que los 
+fui agregando. Al arreglo le pongo un nombre, el cual me permitirá poste-
+riormente mostrar lo que hay dentro, operar o modificar su contenido.
