@@ -1,0 +1,45 @@
+Objetos:
+Un objeto es un contenedor en donde puedo almacenar mucha información de 
+distinto tipo. Es como si a una cosa le guardara sus distintas carac-
+terísticas, y cada una este compuesta por dos factores: el nombre de ella
+y el valor que toma. Por ejemplo, puedo decir "pasta de dientes (marca:
+Colgate); en este caso, el objeto es "pasta de dientes", el nombre de la
+característica o propiedad es "marca" y el valor que toma la misma es 
+"Colgate". De esta forma le puedo agregar todas las propiedades que quiera:
+color, sabor, precio, tamaño, etc., etc. Esto me sirve para que si se
+llegara a presentar el caso en que tengo muchas pastas de dientes distin-
+tas, puedo armar un directorio de ellas (pasta 1, pasta 2, pasta 3, etc.),
+con sus caracteristecas/propiedades. Posterioirmente podré utilizar co-
+mandos para preguntar "cuál es el precio de la pasta 3?", cuál es el sa-
+bor de la pasta 1?"; o si el precio de una determinada pasta sube, poder
+cambiarlo facilmente, de forma automatizada.
+
+Propiedad:
+Entonces, las propiedades de un objeto son las "características" del mis-
+mo. Se puede decir que un objeto esta compuesto por sus propiedades. Éstas
+se designan con un nombre o clave y pueden ser de cualquier tipo o tomar
+cualquier valor: numero, string, booleano, incluso ser una función, un a-
+rreglo u otro objeto. El valor de la propiedad puedo usarlo para distin-
+tas operaciones o para modificarlo, eliminarlo, crearlo, etc.
+
+Método: 
+Cuando una propiedad de un objeto es una función o designa una acción a 
+realizar se dice que es un método. Por ejemplo: si designo un objeto con
+una propiedad que sea saludar (es decir, imprimir en la pantalla un car-
+tel que diga "Hola!"), al invocar el objeto con su propiedad directamente
+se imprimira en la pantala "Hola!".
+
+Bucle for... in:
+Sirve para recorrer el objeto, ya que en este caso las propiedades del ob-
+jeto no estan designadas por un número, sino por un nombre, por eso no po-
+demos iterar en el objeto con una secuencia numerica, y debemos hacerlo 
+con las claves. 
+
+Notación de puntos vs notación de corchetes:
+Son dos formas distintas para traer el valor de una propiedad que se es-
+pecific+o en un objeto, es decir, cuando quiero buscar que valor le puse
+a una determinada propiedad en un determinado objeto, puedo hacer ponien-
+do un punto despues escribir el objeto (objeto.propiedad) o utilizando
+corchetes (objeto['propiedad']). La ventaja en el primer caso es que es más
+fácil y rapido de escribir de escribir, sin embargo el sentido de lo que
+escribo es literal, y no permite utilizar variables. 
