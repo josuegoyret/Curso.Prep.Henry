@@ -1,0 +1,21 @@
+prototype: 
+Todo en javascript es un objeto o proviene de un objeto, y como tal tendrá
+distintas propiedades y métodos que se le ha nespecificado. Pero a veces
+uno no le ha especificado una determinada función o método y sin embargo
+el objeto puede operar con él. Esto se debe a que todo objeto esta refe-
+renciado a otro objeto predecesor, y por lo tanto hereda sus caracterís-
+ticas, como puede ser los métodos. Ese antepasado se llama prototipo, y es 
+como si el objeto que creamos este hecho a imagen y semejanza de su pro-
+totipo, y este último a la de su predecesor, y así hasta llegar a un ob-
+jeto mayor del cual derivan todos los objetos que pudieran existir. Esto
+permite no tener que copiar y repetir el código de un determinado método
+porque sabemos que ya existe en su predecesor (prototipo), y lo podemos
+invocar desde ahí.
+
+Constructors (de clases):
+Un constructor es una función que crea una clase. Esto significa que crea
+una planilla de propiedades a la cual después simplemente tengo que a-
+gregar los valores y ya tengo un objeto. Esto facilita la creación de mu-
+chos objetos con propiedades iguales pero valores distintos, con nombres
+distintos (reduce la cantidad de código a escribir y por lo tanto pre-
+ve errores de tipeo). 
