@@ -1,0 +1,7 @@
+Funciones Callback:
+Las funciones callbacks son aquellas que se invocan dentro de otra fun-
+ción, es decir, cuando tomo una funcion para que realice una cierta ac-
+ción, dentro de esa acción debe realizar otra acción. Para esto, cada una
+de las "acciones" o funciones deben tener sus parametros con los cuales
+trabajar, y estos pueden ser "trasmitidos" de una funcionan a la otra (de
+la funcion inferior a la superior).
