@@ -20,7 +20,6 @@
                 background-color:mediumaquamarine;
                 padding: 50px;
                 border: 5px solid;
-                margin: 0 auto;
             }
 
             #spanId {
@@ -28,12 +27,10 @@
                 margin: 50px;
             }
 
-            .divClass {
-                text-align: center;
-            }
-
             div {
-                width: 600px;
-                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: auto;
             }
             
