@@ -1,4 +1,11 @@
 
+            body {
+                background-image: url(https://static.hosteltur.com/app/public/uploads/img/articles/2019/11/07/L_134003_salta001.jpg);
+                background-size: cover;
+                background-color: transparent;
+            }
+            
+            
             h1 {
                 color: blue;
             }
@@ -10,12 +17,23 @@
             #thirdDiv {
                 width: 500px;
                 height: 600px;
-                background-color: burlywood;
+                background-color:mediumaquamarine;
                 padding: 50px;
                 border: 5px solid;
+                margin: 0 auto;
             }
 
             #spanId {
                 font-size: 18px;
                 margin: 50px;
             }
+
+            .divClass {
+                text-align: center;
+            }
+
+            div {
+                width: 600px;
+                margin: 0 auto;
+            }
+            
