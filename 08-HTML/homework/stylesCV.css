@@ -1,0 +1,40 @@
+body {
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:beige;
+}
+
+
+div {
+    position: relative;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 3px solid black;
+}
+
+h1 {
+    margin-bottom: 0px;
+    color: midnightblue;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(56, 58, 58);
+}
+
+p {
+    text-align: justify;
+}
